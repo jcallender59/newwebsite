@@ -1,0 +1,83 @@
+body{
+ 
+    background-color: #2860d9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter
+}
+
+h1{
+
+
+}
+
+div {
+
+    margin-top:5px;
+  
+    margin-bottom:5px;
+  
+    margin-right:15px;
+  
+    margin-left:15px;
+  
+  }
+   
+  .box-1 h4 {
+  
+      font-family:  Tahoma;
+  
+      font-weight: 800;
+  
+      font-style: italic;
+  
+      text-decoration: underline;
+  
+      text-transform: uppercase;
+  
+      letter-spacing: 0.1em;
+  
+  }
+   
+
+  #myform input[type = "text"] {
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%
+}
+ 
+#myform input[type = "submit"], .button {
+    padding: 8px;
+    border: none;
+    background-color: darkblue;
+    color: whitesmoke
+}
+
+<nav>
+<ul>
+    <li><a href="index.html">Go to profile</a></li>
+    <li><a href="projects.html">Go to projects</a></li>
+    <li> <a href="https://www.linkedin.com/in/nish-mandal/" target="_blank">My LinkedIn</a></li>
+</ul>
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+
+/* hover state */
+a:hover {
+    /* when we hover over the link the text turns red */
+    color: red;
+}
+ 
+/* active state*/
+a:active {
+    /* when we click the link it turns green */
+    color: green;
+}

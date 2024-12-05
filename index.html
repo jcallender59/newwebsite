@@ -5,27 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is a great webpage"/>
     <meta name="author" content="James Callender"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="profilestyle.css" rel="stylesheet"/>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
     <title>Document</title>
 </head>
 <body>
-    
+
     <header>
-        <h1>James Callender</h1>
-        <img alt="My picture" src="profilepic.jpg">
         <a href="index.html">Go to profile</a>
         <a href="projects.html">Go to projects</a>
+        <h1>James Callender</h1>
         
-        <h2>My Profile</h2>
-        <p>An <em>awsome</em> website <strong>demo</strong></p>
+        <h4>My Profile</h4>
+        <p><em>Junior ServiceNow App Dev</em></p>
+        <br>
+        
+        <img alt="My picture" src="profilepic.jpg">
     </header>
-    <section>
+    
+    <br>
+    <br>
+    
+    <section class="box-1">
         <h4>My Skills</h4>
         <p>ServiceNow, AWS</p>
      
     </section>
-    <section>
+    <section class="box-1">
         <h4>My hobbies</h4>
         <ul>
             <li>Squash</li>
@@ -33,7 +41,7 @@
         
         </ul>
     </section>
-    <section>
+    <section class="box-1">
         <h4>Goals</h4>
         <ol>
             <li>Become a great consultant</li>
@@ -41,12 +49,11 @@
             
         </ol>
     </section>
-    <section>
-        <h3>Search For New</h3>
+    <section class="box-1">
+        <h3>Search for:</h3>
         <form action="https://bbc.co.uk/search">
-            <label for="mysearch">Search For</label>
-            <input class="button" type="submit" value="submit">
             <input id="mysearch" name="q" type="text" value="Manchester">
+            <input class="button" type="submit" value="submit">
         </form>
     </section
 
